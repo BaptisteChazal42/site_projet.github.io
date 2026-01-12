@@ -1764,6 +1764,7 @@ input, select, textarea {
 		}
 
 /* Section/Article */
+	
 
 	section.special, article.special {
 		text-align: center;
@@ -1775,7 +1776,6 @@ input, select, textarea {
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
-		background-color: greenyellow;
 	}
 
 		header.major > :first-child {
