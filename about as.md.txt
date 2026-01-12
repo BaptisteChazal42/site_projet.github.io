@@ -1,0 +1,6 @@
+À propos de nous:
+
+Nous sommes des étudiants en Master 1 Automatique et Robotique à l’École Universitaire de Physique et d’Ingénierie de Clermont-Ferrand.
+Dans le cadre de notre formation, nous avons développé un jeu sérieux éducatif dont l’objectif est de sensibiliser au tri des déchets et à l’utilisation correcte des poubelles de tri.
+
+Ce projet vise à combiner apprentissage et divertissement afin d’encourager des comportements écologiques et responsables.
