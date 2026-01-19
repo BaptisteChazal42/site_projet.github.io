@@ -9,36 +9,46 @@
 
 
 /*code de modification du tableau de simulation*/
-
-table {
-    margin: auto;
+#tableau-tri {
     border-collapse: collapse;
+    margin: 20px auto;
 }
 
-td {
-    width: 150px;
-    height: 150px;
-    border: 2px solid white;
-    cursor: pointer;
-    transition: background-color 0.3s;
+#tableau-tri td {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #333;
+    text-align: center;
+    vertical-align: middle;
 }
 
-td img {
-    width: 80px;
-    height: auto;
+#tableau-tri img {
+    width: 70px;
 }
 
 /* Couleurs des poubelles */
 .jaune {
-    background-color: #f4e04d;
+    background-color: #f1c40f;
 }
 
-.bleue {
-    background-color: #4da6ff;
+.grise {
+    background-color: #bdc3c7;
 }
 
 .verte {
-    background-color: #5cb85c;
+    background-color: #2ecc71;
+}
+
+.marron {
+    background-color: #8e5a2b;
+}
+
+.rouge {
+    background-color: #e74c3c;
+}
+
+.bleue {
+    background-color: #3498db;
 }
 
 /*fin du code*/
