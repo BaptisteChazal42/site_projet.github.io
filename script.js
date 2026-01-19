@@ -1,15 +1,14 @@
-// Sélectionner toutes les cases du tableau
-const cases = document.querySelectorAll("#tableau-tri td");
+document.addEventListener("DOMContentLoaded", () => {
 
-cases.forEach(caseTableau => {
-    caseTableau.addEventListener("click", () => {
+    const cases = document.querySelectorAll("#tableau-tri td");
 
-        // Si déjà activée, on ne fait rien
-        if (caseTableau.classList.contains("active")) {
-            return;
-        }
+    cases.forEach(caseTableau => {
+        caseTableau.addEventListener("click", () => {
 
-        // Ajouter la classe "active" pour afficher la couleur
-        caseTableau.classList.add("active");
+            if (caseTableau.classList.contains("active")) return;
+
+            caseTableau.classList.add("active");
+        });
     });
+
 });
