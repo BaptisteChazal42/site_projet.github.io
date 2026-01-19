@@ -1,16 +1,22 @@
-// Sélectionne toutes les cases du tableau
+// Sélectionner toutes les cases du tableau
 const cases = document.querySelectorAll("#tableau-tri td");
+
+// Toutes les couleurs possibles
+const couleurs = ["jaune", "grise", "verte", "marron", "rouge", "bleue"];
 
 cases.forEach(caseTableau => {
     caseTableau.addEventListener("click", () => {
 
-        // Supprime les anciennes couleurs si on reclique
-        caseTableau.classList.remove("jaune", "bleue", "verte");
+        // Si la case a déjà une couleur, on ne fait rien
+        if (caseTableau.classList.contains("deja-trie")) {
+            return;
+        }
 
-        // Récupère le type de poubelle
+        // Récupérer la poubelle correcte
         const poubelle = caseTableau.dataset.poubelle;
 
-        // Applique la bonne couleur
+        // Appliquer la couleur correspondante
         caseTableau.classList.add(poubelle);
+        caseTableau.classList.add("deja-trie");
     });
 });
