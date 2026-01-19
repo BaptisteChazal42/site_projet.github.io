@@ -9,8 +9,12 @@
 
 
 /*code de modification du tableau de simulation*/
+
 .ii{
 	color: yellow;
+}
+.oo{
+
 }
 #tableau-tri {
     border-collapse: collapse;
