@@ -15,44 +15,45 @@
 }
 
 #tableau-tri td {
-    width: 130px;
-    height: 130px;
+    width: 500px;
+    height: 500px;
     border: 2px solid #333;
     text-align: center;
     vertical-align: middle;
-    background-color: #f5f5f5; /* couleur neutre au départ */
+    background-color: #f5f5f5;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #tableau-tri img {
-    width: 70px;
-    pointer-events: none; /* permet de cliquer sur la case même sur l'image */
+    width: 300px;
+	height: 300px;
+    pointer-events: none;
 }
 
-/* Couleurs des poubelles (apparaissent après clic) */
-.jaune.active {
-    background-color: #f1c40f;
+/* Couleurs avec opacité */
+.jaune.active{
+    background-color: rgba(241, 196, 15, 0.5);
 }
 
-.grise.active {
-    background-color: #bdc3c7;
+.grise{
+    background-color: rgba(189, 195, 199, 0.5);
 }
 
 .verte.active {
-    background-color: #2ecc71;
+    background-color: rgba(46, 204, 113, 0.5);
 }
 
 .marron.active {
-    background-color: #8e5a2b;
+    background-color: rgba(142, 90, 43, 0.5);
 }
 
 .rouge.active {
-    background-color: #e74c3c;
+    background-color: rgba(231, 76, 60, 0.5);
 }
 
 .bleue.active {
-    background-color: #3498db;
+    background-color: rgba(52, 152, 219, 0.5);
 }
 /*fin du code*/
 
