@@ -6,11 +6,47 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+
+/*code de modification du tableau de simulation*/
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+td img {
+    width: 80px;
+    height: auto;
+}
+
+/* Couleurs des poubelles */
+.jaune {
+    background-color: #f4e04d;
+}
+
+.bleue {
+    background-color: #4da6ff;
+}
+
+.verte {
+    background-color: #5cb85c;
+}
+
+/*fin du code*/
+
 .mate{
  text-decoration: underline;
  padding-bottom: 50px;
 }
-
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
