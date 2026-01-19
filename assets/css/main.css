@@ -9,7 +9,18 @@
 
 
 /*code de modification du tableau de simulation*/
-
+.oo{
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.oo img {
+    display: inline-block; /* ou inline */
+    margin-right: 50px;    /* espace entre les images */
+    vertical-align: middle; /* alignement vertical propre */
+    width: 150px;           /* taille des images */
+	width: 300px;
+	height: 300px;
+}
 .ii{
 	color: yellow;
 }
